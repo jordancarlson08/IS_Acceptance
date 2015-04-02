@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IS Acceptance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="results_string">We predict that you will be %s</string>
+
+    <string-array name="genderSpinnerArray">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="is303SpinnerArray">
+        <item>IS 303</item>
+        <item>I SYS 303</item>
+        <item>CS 142</item>
+    </string-array>
+
+    <string name="title_activity_results">ResultsActivity</string>
+
+</resources>
