@@ -34,7 +34,9 @@
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingStart="25dp" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -49,7 +51,9 @@
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingStart="25dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -59,14 +63,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:singleLine="true"
-        android:hint="30 Hour GPA. Ex. 3.41"
+        android:hint="30 Hour GPA (e.g. 3.41)"
         android:background="@android:color/white"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:inputType="numberDecimal"
         android:numeric="decimal"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="25dp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -76,14 +81,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:singleLine="true"
-        android:hint="BYU GPA. Ex. 3.54"
+        android:hint="BYU GPA (e.g. 3.54)"
         android:background="@android:color/white"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:inputType="numberDecimal"
         android:numeric="decimal"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="25dp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -93,14 +99,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:singleLine="true"
-        android:hint="Prerequisit GPA. Ex. 3.93"
+        android:hint="Prerequisit GPA (e.g. 3.93)"
         android:background="@android:color/white"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:inputType="numberDecimal"
         android:numeric="decimal"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="25dp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -110,14 +117,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:singleLine="true"
-        android:hint="IS 303 GPA. Ex. 3.7"
+        android:hint="IS 303/CS 142 GPA (e.g. 3.7)"
         android:background="@android:color/white"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:inputType="numberDecimal"
         android:numeric="decimal"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="25dp"/>
 
     <Button
         android:layout_width="match_parent"
@@ -129,5 +137,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/is303EditText"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp"/>
+        android:paddingBottom="10dp"
+        android:textColor="#ff0d3b6e"
+        android:background="#c8ffffff" />
 </RelativeLayout>
